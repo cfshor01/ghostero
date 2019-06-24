@@ -1,11 +1,6 @@
-// Reference to the canvas element
 let canvas;
-// Context provides functions used for drawing and 
-// working with Canvas
 let ctx;
 
-// Used to monitor whether paddles and ball are
-// moving and in what direction
 let DIRECTION = {
     STOPPED: 0,
     UP: 1,
@@ -14,7 +9,6 @@ let DIRECTION = {
     RIGHT: 4
 };
 
-// The paddle object used for both the player and AI
 class Paddle{
     constructor(side) {
         // Define size of paddle
@@ -32,8 +26,6 @@ class Paddle{
         this.speed = 11;
     }
 }
-
-// The ball object 
 class Ball{
     constructor(newSpeed) {
         // Size of ball
