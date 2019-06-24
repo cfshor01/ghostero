@@ -10,10 +10,26 @@ html{
 .container{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*.jumbotron{
+    background: url(https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
 .jumbotron h1
 {
+     <div class="jumbotron text-center">
+        <h1>Cristobal Entertainment Center</h1>
+        <p>A place to chill out...</p>
+    </div> 
+
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+.card{
+    background-image: url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2313&q=80);
+    background-size: cover;
+    padding: 25px;
 }
 
 h1.GRH {
