@@ -65,8 +65,8 @@ function SetupCanvas(){
     // Get methods for manipulating the canvas
     ctx = canvas.getContext('2d');
     // Define canvas size
-    canvas.width = 1200;
-    canvas.height = 700;
+    canvas.width = 800;
+    canvas.height = 500;
     // Create player and AI paddles
     player = new Paddle('left');
     aiPlayer = new Paddle('right');
