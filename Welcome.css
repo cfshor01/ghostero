@@ -7,27 +7,6 @@ html{
     height: 100%;
 }
 
-.ml9 {
-  position: relative;
-  font-weight: 200;
-  font-size: 4em;
-}
-
-.ml9 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-.ml9 .letter {
-  transform-origin: 50% 100%;
-  display: inline-block;
-  line-height: 1em;
-}
-
 .container{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -98,49 +77,3 @@ body {
 	animation: Gradient 15s ease infinite;
 }
 
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-h1,
-h6 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	text-align: center;
-	position: absolute;
-	top: 45%;
-	right: 0;
-	left: 0;
-}
