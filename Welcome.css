@@ -1,57 +1,12 @@
-h1 {
-    text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-html{
-    height: 100%;
-}
-
-.container{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/*.jumbotron{
-    background: url(https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-}
-
-.jumbotron h1
-{
-     <div class="jumbotron text-center">
-        <h1>Cristobal Entertainment Center</h1>
-        <p>A place to chill out...</p>
-    </div> 
-
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}*/
-
-.card{
-    background-image: url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2313&q=80);
-    background-size: cover;
-    padding: 25px;
-}
-
-h1.GRH {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-p.GRH{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.GP{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
-}
-.container:hover img{
-    opacity: .7;
-}
-
 body{
-padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+.navbar-default{
+    background: white;
+    border: 0;
+    font-family: Poppins;
+    font-size: 110%;
 }
 
 .home-footer footer{
@@ -63,5 +18,82 @@ padding-bottom: 0px;
     background-color:rgb(211, 211, 211);
     position: relative;
     top: 500px;
-
 }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins;
+}
+
+
+/*#showcaseOne{
+    border-top:#333 7px solid;
+    border-bottom:#333 7px solid;
+    width: 100%;
+    padding: 500px;
+    padding-top: 20px;
+}*/
+
+
+#showcaseTwo{
+    background: lightskyblue;
+}
+
+#showcaseThree{
+    background-color:#404040;
+    color: #FFF;  
+}
+
+#About {
+    font-family: Poppins;
+    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: gainsboro;
+    
+}
+
+#About h1{
+    size: 1000px;
+}
+
+#contact{
+    padding-top: 40px;
+    background:url(../img/image3.png);
+    padding:40px;
+    color:#000;
+    font-family: Poppins;
+    border-top:#333 7px solid;
+    border-bottom:#333 7px solid;
+  }
+  
+  footer{
+    padding:30px;
+  }
+
+  #top{
+      background: #FFF;
+    }
+
+   
+  #navbar .nav-link{
+      color: lightskyblue;
+  }
+
+  #top h1{
+        font-weight: 200;
+        margin: 0.4em 0;
+        font-size: 3.5em;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #top .txt-rotate{
+        font-family: 'Montserrat', sans-serif;
+        color: lightskyblue;
+    }
+  #top h2{
+      font-weight: 200;
+      margin: 0.4em 0;
+      font-size: 2em;
+  }
+  #top h4{
+      font-weight: 50;
+  }
