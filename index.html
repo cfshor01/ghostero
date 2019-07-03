@@ -48,7 +48,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                      <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -125,20 +125,20 @@
             <h1>Contact</h1>
             <div class="row">
                 <div class="col-md-5 col-sm-5">
-                    <form>
+                    <form class = "contact-form" action="contactform.php" method = "post">
                         <div class="form-group">
                             <label>Name: </label>
-                            <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
+                            <input class="form-control" type="text" name="name" value="" placeholder="Enter Name">
                         </div>
                         <div class="form-group">
                             <label>Email: </label>
-                            <input class="form-control" type="text" name="" value="" placeholder="Enter Email">
+                            <input class="form-control" type="text" name="email" value="" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
                             <label>Message: </label>
-                            <textarea class="form-control" name="" value="" placeholder="Enter Message"></textarea>
+                            <textarea class="form-control" name="message" value="" placeholder="Enter Message"></textarea>
                         </div>
-                        <button class="btn btn-default">Submit</button>
+                        <button class="btn btn-default" name = "submit">Submit</button>
                     </form>
                 </div>
                 <div class="col-md-7 col-sm-7">
@@ -165,22 +165,16 @@
             origin: 'bottom'
         }
         );
-
         sr.reveal('#top', { delay: 1000, duration: 2000, origin: top });
-
         sr.reveal('#About', { delay: 3000, duration: 1500, origin: 'bottom' });
-
         sr.reveal('#showcaseOne', {
             delay: 4000,
             duration: 2000,
             origin: 'bottom'
         });
-
         sr.reveal('#showcaseTwo', { duration: 2000, origin: 'bottom', viewFactor: 0.5 });
-
-        sr.reveal('#showcaseThree', {duration: 2000, origin: 'bottom',viewFactor: 0.7});
-
-        sr.reveal('#contact', {duration:2000, origin: 'bottom', viewFactor: 0.6});
+        sr.reveal('#showcaseThree', { duration: 2000, origin: 'bottom', viewFactor: 0.7 });
+        sr.reveal('#contact', { duration: 2000, origin: 'bottom', viewFactor: 0.6 });
     </script>
 
 
